@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    margin:0;
+}
+.content {
+    max-width:1500px;
+}
+.header {
+    padding:10px 20px;
+    background-color:#1F2937;
+    margin:0;
+    color:#F9FAF8;
+}
+
+.inner-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.right-header ul{
+    display: flex;
+    gap: 15px;
+}
+
+.right-header a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.hero {
+    display: flex;
+}
+    

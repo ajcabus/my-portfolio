@@ -1,1 +1,1 @@
-# my-portfolio
+In this project is my personal details to contact me and the sample projects that I made.
