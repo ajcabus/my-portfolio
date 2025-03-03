@@ -3,7 +3,8 @@ body {
     margin:0;
 }
 .content {
-    max-width:1500px;
+    max-width:1300px;
+    margin:auto;
 }
 .header {
     padding:10px 20px;
@@ -34,6 +35,27 @@ ul {
 }
 
 .hero {
+    background-color:#1F2937;
+    color:#F9FAF8;
+    padding:20px;
+    
+}
+
+.inner-hero {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:700px;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+.hero-image img {
+    max-width:350px;
+}
+
+button {
+    padding:10px 25px;
 }
     
