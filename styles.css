@@ -24,6 +24,10 @@ ul {
     list-style-type: none;
 }
 
+img {
+    border-radius: 25px;
+}
+
 .right-header ul{
     display: flex;
     gap: 15px;
@@ -58,4 +62,17 @@ ul {
 button {
     padding:10px 25px;
 }
-    
+.pl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec-1 {
+    text-align: center;
+    padding:40px;
+}
+
+.sec-1 h2 {
+    padding:20px 20px 40px;
+}
