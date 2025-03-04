@@ -2,9 +2,15 @@ body {
     height: 100vh;
     margin:0;
 }
+
+p{
+    font-size:18px;
+}
+
 .content {
-    max-width:1300px;
+    max-width:1200px;
     margin:auto;
+    padding:80px;
 }
 .header {
     padding:10px 20px;
@@ -41,7 +47,6 @@ img {
 .hero {
     background-color:#1F2937;
     color:#F9FAF8;
-    padding:20px;
     
 }
 
@@ -75,4 +80,36 @@ button {
 
 .sec-1 h2 {
     padding:20px 20px 40px;
+}
+
+.sec-2 {
+    padding:40px;
+    background-color: #E5E7EB;
+}
+
+.inner-sec-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.sec-3 {
+    background-color: #3882F6;
+}
+
+.inner-sec-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec-3-text {
+    color:#fff;
+    max-width: 800px;
+
+}
+
+.sec-3-cta {
+    display: flex;
+    justify-content: center;
+    flex:auto;
 }
